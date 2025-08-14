@@ -51,6 +51,8 @@ jobs:
           command: "readme"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
+      - name: Wait for workflows to register
+        run: sleep 5
       - name: Generate graphs
         uses: benc-uk/workflow-dispatch@v1
         with:
