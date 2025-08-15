@@ -7,8 +7,8 @@ sites:
     url: https://mission.testronaut.app/api/health
   - name: API
     url: https://api.testronaut.app/api/health
-  # - name: Site
-  #   url: https://testronaut.app
+  - name: Site
+    url: https://testronaut.app
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
