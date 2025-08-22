@@ -4,19 +4,19 @@
     "url": "https://mission.testronaut.app/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/mission.testronaut.app.ico",
     "slug": "app",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 546,
-    "timeDay": 256,
-    "timeWeek": 721,
-    "timeMonth": 546,
-    "timeYear": 546,
+    "status": "up",
+    "uptime": "99.86%",
+    "uptimeDay": "98.84%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.86%",
+    "uptimeYear": "99.86%",
+    "time": 528,
+    "timeDay": 233,
+    "timeWeek": 664,
+    "timeMonth": 528,
+    "timeYear": 528,
     "dailyMinutesDown": {
-      "2025-08-22": 0
+      "2025-08-22": 17
     }
   },
   {
@@ -24,19 +24,19 @@
     "url": "https://api.testronaut.app/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.testronaut.app.ico",
     "slug": "api",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 637,
-    "timeDay": 295,
-    "timeWeek": 463,
-    "timeMonth": 637,
-    "timeYear": 637,
+    "status": "up",
+    "uptime": "99.86%",
+    "uptimeDay": "98.83%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.86%",
+    "uptimeYear": "99.86%",
+    "time": 688,
+    "timeDay": 960,
+    "timeWeek": 592,
+    "timeMonth": 688,
+    "timeYear": 688,
     "dailyMinutesDown": {
-      "2025-08-22": 0
+      "2025-08-22": 17
     }
   },
   {
@@ -44,19 +44,19 @@
     "url": "https://testronaut.app",
     "icon": "https://icons.duckduckgo.com/ip3/testronaut.app.ico",
     "slug": "site",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 642,
-    "timeDay": 155,
-    "timeWeek": 690,
-    "timeMonth": 642,
-    "timeYear": 642,
+    "status": "up",
+    "uptime": "99.85%",
+    "uptimeDay": "98.83%",
+    "uptimeWeek": "99.83%",
+    "uptimeMonth": "99.85%",
+    "uptimeYear": "99.85%",
+    "time": 592,
+    "timeDay": 152,
+    "timeWeek": 629,
+    "timeMonth": 592,
+    "timeYear": 592,
     "dailyMinutesDown": {
-      "2025-08-22": 0
+      "2025-08-22": 17
     }
   },
   {
@@ -64,19 +64,19 @@
     "url": "https://docs.testronaut.app",
     "icon": "https://icons.duckduckgo.com/ip3/docs.testronaut.app.ico",
     "slug": "docs",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 358,
+    "status": "up",
+    "uptime": "99.81%",
+    "uptimeDay": "98.83%",
+    "uptimeWeek": "99.81%",
+    "uptimeMonth": "99.81%",
+    "uptimeYear": "99.81%",
+    "time": 341,
     "timeDay": 223,
-    "timeWeek": 358,
-    "timeMonth": 358,
-    "timeYear": 358,
+    "timeWeek": 341,
+    "timeMonth": 341,
+    "timeYear": 341,
     "dailyMinutesDown": {
-      "2025-08-22": 0
+      "2025-08-22": 17
     }
   }
 ]
