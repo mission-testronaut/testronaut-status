@@ -4,43 +4,47 @@
     "url": "https://mission.testronaut.app/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/mission.testronaut.app.ico",
     "slug": "app",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 546,
     "timeDay": 256,
-    "timeWeek": 680,
+    "timeWeek": 721,
     "timeMonth": 546,
     "timeYear": 546,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-22": 0
+    }
   },
   {
     "name": "API",
     "url": "https://api.testronaut.app/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.testronaut.app.ico",
     "slug": "api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 637,
     "timeDay": 295,
-    "timeWeek": 624,
+    "timeWeek": 463,
     "timeMonth": 637,
     "timeYear": 637,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-22": 0
+    }
   },
   {
     "name": "Site",
     "url": "https://testronaut.app",
     "icon": "https://icons.duckduckgo.com/ip3/testronaut.app.ico",
     "slug": "site",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -48,17 +52,19 @@
     "uptimeYear": "100.00%",
     "time": 642,
     "timeDay": 155,
-    "timeWeek": 642,
+    "timeWeek": 690,
     "timeMonth": 642,
     "timeYear": 642,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-22": 0
+    }
   },
   {
     "name": "Docs",
     "url": "https://docs.testronaut.app",
     "icon": "https://icons.duckduckgo.com/ip3/docs.testronaut.app.ico",
     "slug": "docs",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -69,6 +75,8 @@
     "timeWeek": 358,
     "timeMonth": 358,
     "timeYear": 358,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-08-22": 0
+    }
   }
 ]
