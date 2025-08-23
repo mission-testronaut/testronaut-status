@@ -10,11 +10,11 @@
     "uptimeWeek": "99.83%",
     "uptimeMonth": "99.86%",
     "uptimeYear": "99.86%",
-    "time": 528,
-    "timeDay": 233,
-    "timeWeek": 664,
-    "timeMonth": 528,
-    "timeYear": 528,
+    "time": 514,
+    "timeDay": 226,
+    "timeWeek": 651,
+    "timeMonth": 514,
+    "timeYear": 514,
     "dailyMinutesDown": {
       "2025-08-22": 17
     }
@@ -30,11 +30,11 @@
     "uptimeWeek": "99.83%",
     "uptimeMonth": "99.86%",
     "uptimeYear": "99.86%",
-    "time": 688,
-    "timeDay": 960,
-    "timeWeek": 592,
-    "timeMonth": 688,
-    "timeYear": 688,
+    "time": 671,
+    "timeDay": 983,
+    "timeWeek": 589,
+    "timeMonth": 671,
+    "timeYear": 671,
     "dailyMinutesDown": {
       "2025-08-22": 17
     }
@@ -50,11 +50,11 @@
     "uptimeWeek": "99.83%",
     "uptimeMonth": "99.85%",
     "uptimeYear": "99.85%",
-    "time": 592,
-    "timeDay": 152,
-    "timeWeek": 629,
-    "timeMonth": 592,
-    "timeYear": 592,
+    "time": 558,
+    "timeDay": 182,
+    "timeWeek": 614,
+    "timeMonth": 558,
+    "timeYear": 558,
     "dailyMinutesDown": {
       "2025-08-22": 17
     }
@@ -65,16 +65,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/docs.testronaut.app.ico",
     "slug": "docs",
     "status": "up",
-    "uptime": "99.81%",
+    "uptime": "99.82%",
     "uptimeDay": "98.83%",
-    "uptimeWeek": "99.81%",
-    "uptimeMonth": "99.81%",
-    "uptimeYear": "99.81%",
-    "time": 341,
-    "timeDay": 223,
-    "timeWeek": 341,
-    "timeMonth": 341,
-    "timeYear": 341,
+    "uptimeWeek": "99.82%",
+    "uptimeMonth": "99.82%",
+    "uptimeYear": "99.82%",
+    "time": 325,
+    "timeDay": 211,
+    "timeWeek": 325,
+    "timeMonth": 325,
+    "timeYear": 325,
     "dailyMinutesDown": {
       "2025-08-22": 17
     }
