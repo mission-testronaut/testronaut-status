@@ -15,6 +15,7 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
+  themeUrl: https://status.testronaut.app/testronaut.css
   favicon: https://em-content.zobj.net/source/apple/271/astronaut_1f9d1-200d-1f680.png
   cname: status.testronaut.app
   # baseUrl: /mission-testronaut/testronaut-status
