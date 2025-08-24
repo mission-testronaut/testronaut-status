@@ -1,105 +1,81 @@
-/* Testronaut x Upptime theme
-   - Uses official Upptime CSS variables (keeps compatibility)
-   - Adds splash-style gradient + glass look
-*/
-
-/* === Core variables Upptime reads === */
-:root {
-  /* Base surfaces/text */
-  --body-background-color: transparent;      /* we paint body below */
-  --body-text-color: rgba(255,255,255,.92);
-
-  --card-background-color: rgba(255,255,255,.05);
-  --card-border-color: rgba(255,255,255,.12);
-
-  --nav-background-color: rgba(15,23,42,.85); /* slate-900-ish glass */
-  --nav-border-bottom-color: rgba(255,255,255,.12);
-  --footer-background-color: rgba(15,23,42,.90);
-
-  /* Brand */
-  --brand-500: #3b82f6;
-  --brand-600: #2563eb;
-  --accent-violet: #a78bfa;
-  --accent-emerald: #34d399;
-
-  /* States */
-  --ok: #22c55e;      /* green-500 */
-  --bad: #ef4444;     /* red-500 */
-  --degraded: #f59e0b;/* amber-500 */
+ /* === Base text reset === */
+body, .content, .box, .card, .section, .columns, .column {
+  color: rgba(255,255,255,.92) !important;
+}
+h1,h2,h3,h4,h5,h6 {
+  color: #fff !important;
+  font-weight: 800;
 }
 
-/* === Splash gradient backdrop + subtle stars === */
-body {
-  background: linear-gradient(180deg,#0b1022 0%,#0f172a 60%,#0b1022 100%);
-  color: var(--body-text-color);
-}
-body::before{
-  content:""; position: fixed; inset:0; z-index:-1;
-  background: url('/stars.png') center/cover no-repeat; /* optional: put a stars.png in assets/ if you want */
-  opacity:.12; pointer-events:none;
+/* Muted text now slightly brighter */
+.muted, .help, .is-size-7, .is-size-6 {
+  color: rgba(255,255,255,.8) !important;
 }
 
-/* === Navbar/Footer = glass === */
+/* Links */
+a {
+  color: #9ad1ff !important;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+a:hover { color: #c8e8ff !important; }
+
+/* Cards */
+.card, .box, .status, .incident, .summary, .container .content > div {
+  background: rgba(255,255,255,.06) !important;
+  border: 1px solid rgba(255,255,255,.15) !important;
+  border-radius: 16px !important;
+  color: rgba(255,255,255,.92) !important;
+}
+
+/* Navbar/Footer */
 nav, .nav, .navbar {
-  background: var(--nav-background-color) !important;
-  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
-  border-bottom: 1px solid var(--nav-border-bottom-color);
-  box-shadow: 0 8px 24px rgba(0,0,0,.25);
+  background: rgba(15,23,42,.9) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255,255,255,.12);
 }
 footer {
-  background: var(--footer-background-color) !important;
-  color: rgba(255,255,255,.65);
-  border-top: 1px solid var(--card-border-color);
+  background: rgba(15,23,42,.9) !important;
+  color: rgba(255,255,255,.8) !important;
 }
 
-/* === Cards === */
-.card, .box, .status, .incident, .summary, .container .content > div {
-  background: var(--card-background-color) !important;
-  border: 1px solid var(--card-border-color) !important;
-  border-radius: 16px !important;
-  box-shadow: 0 10px 30px rgba(59,130,246,.20) !important;
-}
-
-/* === Headings (heavier like splash) === */
-h1,h2,h3,h4 { color:#fff; font-weight: 800; }
-
-/* Gradient text utility, usable in introTitle/custom HTML */
-.gradient-text{
-  background: linear-gradient(90deg,#60a5fa,#a78bfa,#34d399);
-  -webkit-background-clip:text; background-clip:text; color:transparent;
-}
-
-/* Buttons (CTA links on the page or custom HTML) */
-.btn-primary, .button.is-primary, a.button.is-primary {
-  background: var(--brand-500) !important; color:#fff !important; border:0 !important;
-  border-radius: 16px !important; box-shadow: 0 10px 20px rgba(59,130,246,.20);
-}
-.btn-primary:hover, .button.is-primary:hover { background: var(--brand-600) !important; }
-
-.btn-secondary, .button.is-light {
-  background: rgba(255,255,255,.06) !important; color: rgba(255,255,255,.9) !important;
-  border: 1px solid rgba(255,255,255,.2) !important; border-radius: 16px !important;
-}
-.btn-secondary:hover, .button.is-light:hover { background: rgba(255,255,255,.10) !important; }
-
-/* Chips / small badges (operational, down, degraded) */
+/* Status chips */
 .tag, .badge, .label {
-  border-radius: 999px !important; font-weight: 700 !important;
-  border: 1px solid rgba(255,255,255,.22) !important;
+  border-radius: 999px !important;
+  font-weight: 700 !important;
 }
-.tag.is-success, .ok, .operational  { background: rgba(34,197,94,.14) !important; color: var(--ok) !important; border-color: rgba(34,197,94,.40) !important; }
-.tag.is-danger, .down               { background: rgba(239,68,68,.16) !important; color: var(--bad) !important; border-color: rgba(239,68,68,.45) !important; }
-.tag.is-warning, .degraded          { background: rgba(245,158,11,.14) !important; color: var(--degraded) !important; border-color: rgba(245,158,11,.40) !important; }
+.tag.is-success, .ok, .operational {
+  background: rgba(34,197,94,.25) !important;
+  color: #22c55e !important;
+}
+.tag.is-danger, .down {
+  background: rgba(239,68,68,.25) !important;
+  color: #ef4444 !important;
+}
+.tag.is-warning, .degraded {
+  background: rgba(245,158,11,.25) !important;
+  color: #fbbf24 !important;
+}
 
-/* Tables (history, response-time) */
+/* Tables */
 table {
   background: rgba(255,255,255,.05) !important;
-  border: 1px solid var(--card-border-color) !important; border-radius: 12px !important; overflow: hidden;
+  color: rgba(255,255,255,.92) !important;
 }
-thead th { background: rgba(255,255,255,.08) !important; color:#fff !important; }
+thead th {
+  background: rgba(255,255,255,.12) !important;
+  color: #fff !important;
+}
+tbody td { color: rgba(255,255,255,.9) !important; }
 
-/* Small meta text */
-.muted, .help, .is-size-7, .is-size-6 { color: rgba(255,255,255,.65) !important; }
+/* Charts */
+canvas, svg { border-radius: 12px; }
 
-/* Make charts/graphs corners soft if present */
-canvas, svg { border-radius: 12px; overflow: hidden; }
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(90deg,#60a5fa,#a78bfa,#34d399);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
