@@ -1,84 +1,62 @@
-/* Background gradient */
-body {
-  background: linear-gradient(180deg,#0b1022 0%,#0f172a 60%,#0b1022 100%);
-  color: rgba(255,255,255,0.92);
-}
-
-/* Force text color on common elements */
-body, .content, .section, .box, .card, .status, .incident, .summary, .level, .level-item,
-.title, .subtitle, .heading, .menu-label, .menu-list a, .menu-list a.is-active,
-.navbar-item, .footer, p, li, td, th {
+/* 1) Paint the page background, no matter what */
+html, body {
+  background: linear-gradient(180deg, #0b1022 0%, #0f172a 60%, #0b1022 100%) !important;
   color: rgba(255,255,255,0.92) !important;
 }
 
-/* Muted / secondary text */
-.muted, .help, .is-size-7, .is-size-6, .has-text-grey {
-  color: rgba(255,255,255,0.75) !important;
+/* 2) Nuke Bulma's white surfaces (they’re what's hiding text) */
+.section, .hero, .content, .container, .columns, .column,
+.main, .main-content, .level, .level-item {
+  background: transparent !important;
 }
 
-/* Navbar/Footer */
+/* 3) Ensure all generic text is bright on dark */
+p, li, td, th, .title, .subtitle, .heading,
+.menu-label, .menu-list a, .menu-list a.is-active,
+.navbar-item, .footer, .help, .muted, .is-size-6, .is-size-7 {
+  color: rgba(255,255,255,0.92) !important;
+}
+
+/* 4) Glassy cards (status panels, incidents, summaries) */
+.card, .box, .status, .incident, .summary, .container .content > div {
+  background: rgba(255,255,255,0.06) !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.4) !important;
+  color: rgba(255,255,255,0.92) !important;
+}
+
+/* 5) Navbar / footer glass */
 nav, .nav, .navbar {
-  background: rgba(15,23,42,0.9) !important;
+  background: rgba(15,23,42,0.92) !important;
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   border-bottom: 1px solid rgba(255,255,255,0.12);
 }
 footer {
-  background: rgba(15,23,42,0.9) !important;
-  color: rgba(255,255,255,0.8) !important;
+  background: rgba(15,23,42,0.92) !important;
+  color: rgba(255,255,255,0.85) !important;
   border-top: 1px solid rgba(255,255,255,0.12);
 }
 
-/* Cards and boxes */
-.card, .box, .status, .incident, .summary {
-  background: rgba(255,255,255,0.06) !important;
-  border: 1px solid rgba(255,255,255,0.15) !important;
-  border-radius: 16px !important;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.4) !important;
-}
+/* 6) Links & emphasis */
+a { color: #9ad1ff !important; text-decoration: underline; text-underline-offset: 2px; }
+a:hover { color: #c8e8ff !important; }
+h1,h2,h3,h4,h5,h6 { color: #fff !important; font-weight: 800; }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6, .title, .subtitle {
-  color: #fff !important;
-  font-weight: 700;
-}
+/* 7) Status chips */
+.tag, .badge, .label { border-radius: 999px !important; font-weight: 700 !important; }
+.tag.is-success, .ok, .operational { background: rgba(34,197,94,0.25) !important; color: #22c55e !important; }
+.tag.is-danger, .down { background: rgba(239,68,68,0.25) !important; color: #ef4444 !important; }
+.tag.is-warning, .degraded { background: rgba(245,158,11,0.25) !important; color: #f59e0b !important; }
 
-/* Status tags (chips) */
-.tag, .badge, .label {
-  border-radius: 999px !important;
-  font-weight: 700 !important;
-}
-.tag.is-success, .ok, .operational {
-  background: rgba(34,197,94,0.25) !important;
-  color: #22c55e !important;
-}
-.tag.is-danger, .down {
-  background: rgba(239,68,68,0.25) !important;
-  color: #ef4444 !important;
-}
-.tag.is-warning, .degraded {
-  background: rgba(245,158,11,0.25) !important;
-  color: #fbbf24 !important;
-}
+/* 8) Tables */
+table { background: rgba(255,255,255,0.05) !important; border: 1px solid rgba(255,255,255,0.15) !important; border-radius: 12px !important; }
+thead th { background: rgba(255,255,255,0.12) !important; color: #fff !important; }
+tbody td { color: rgba(255,255,255,0.92) !important; }
 
-/* Tables */
-table {
-  background: rgba(255,255,255,0.05) !important;
-  border: 1px solid rgba(255,255,255,0.15) !important;
-  border-radius: 12px !important;
-}
-thead th {
-  background: rgba(255,255,255,0.12) !important;
-  color: #fff !important;
-}
-tbody td {
-  color: rgba(255,255,255,0.9) !important;
-}
-
-/* Gradient text helper */
+/* 9) Optional gradient headline helper */
 .gradient-text {
-  background: linear-gradient(90deg,#60a5fa,#a78bfa,#34d399);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent !important;
+  background: linear-gradient(90deg, #60a5fa, #a78bfa, #34d399);
+  -webkit-background-clip: text; background-clip: text; color: transparent !important;
 }
