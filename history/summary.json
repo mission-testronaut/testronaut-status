@@ -4,10 +4,10 @@
     "url": "https://mission.testronaut.app/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/mission.testronaut.app.ico",
     "slug": "app",
-    "status": "up",
+    "status": "down",
     "uptime": "99.79%",
-    "uptimeDay": "98.79%",
-    "uptimeWeek": "99.66%",
+    "uptimeDay": "98.69%",
+    "uptimeWeek": "99.65%",
     "uptimeMonth": "99.79%",
     "uptimeYear": "99.79%",
     "time": 456,
@@ -16,6 +16,7 @@
     "timeMonth": 456,
     "timeYear": 456,
     "dailyMinutesDown": {
+      "2025-08-26": 1,
       "2025-08-25": 17,
       "2025-08-22": 17
     }
@@ -25,10 +26,10 @@
     "url": "https://api.testronaut.app/api/health",
     "icon": "https://icons.duckduckgo.com/ip3/api.testronaut.app.ico",
     "slug": "api",
-    "status": "up",
+    "status": "down",
     "uptime": "99.79%",
-    "uptimeDay": "98.81%",
-    "uptimeWeek": "99.66%",
+    "uptimeDay": "98.74%",
+    "uptimeWeek": "99.65%",
     "uptimeMonth": "99.79%",
     "uptimeYear": "99.79%",
     "time": 607,
@@ -37,6 +38,7 @@
     "timeMonth": 607,
     "timeYear": 607,
     "dailyMinutesDown": {
+      "2025-08-26": 1,
       "2025-08-25": 17,
       "2025-08-22": 17
     }
@@ -46,10 +48,10 @@
     "url": "https://testronaut.app",
     "icon": "https://icons.duckduckgo.com/ip3/testronaut.app.ico",
     "slug": "site",
-    "status": "up",
+    "status": "down",
     "uptime": "99.79%",
-    "uptimeDay": "98.84%",
-    "uptimeWeek": "99.67%",
+    "uptimeDay": "98.81%",
+    "uptimeWeek": "99.66%",
     "uptimeMonth": "99.79%",
     "uptimeYear": "99.79%",
     "time": 388,
@@ -58,6 +60,7 @@
     "timeMonth": 388,
     "timeYear": 388,
     "dailyMinutesDown": {
+      "2025-08-26": 0,
       "2025-08-25": 17,
       "2025-08-22": 17
     }
@@ -69,7 +72,7 @@
     "slug": "docs",
     "status": "up",
     "uptime": "99.76%",
-    "uptimeDay": "98.87%",
+    "uptimeDay": "98.86%",
     "uptimeWeek": "99.67%",
     "uptimeMonth": "99.76%",
     "uptimeYear": "99.76%",
@@ -79,6 +82,7 @@
     "timeMonth": 394,
     "timeYear": 394,
     "dailyMinutesDown": {
+      "2025-08-26": 0,
       "2025-08-25": 16,
       "2025-08-22": 17
     }
