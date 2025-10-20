@@ -1,7 +1,7 @@
 url: https://mission.testronaut.app/api/health
-status: down
-code: 500
-responseTime: 3228
-lastUpdated: 2025-10-20T06:52:37.384Z
+status: up
+code: 200
+responseTime: 1943
+lastUpdated: 2025-10-20T07:14:00.855Z
 startTime: 2025-08-14T16:41:58.985Z
 generator: Upptime <https://github.com/upptime/upptime>
