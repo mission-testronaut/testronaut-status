@@ -22,9 +22,9 @@ status-website:
   cname: status.testronaut.app
   # baseUrl: /mission-testronaut/testronaut-status
   logoUrl: https://em-content.zobj.net/source/apple/271/astronaut_1f9d1-200d-1f680.png
-  name: Testronaut
-  introTitle: "**Testronaut Status — Agentic End-to-End Testing**"
-  introMessage: Official service status for Testronaut, the agentic end-to-end testing framework powered by AI agents and Playwright. Monitor Mission Control, the API, product site, documentation, and demo sandbox.
+  name: Testronaut™
+  introTitle: "**Testronaut™ Status — Agentic End-to-End Testing**"
+  introMessage: Official service status for Testronaut™, the agentic end-to-end testing framework powered by AI agents and Playwright. Monitor Mission Control, the API, product site, documentation, and demo sandbox.
   navbar:
     - title: Status
       href: /
