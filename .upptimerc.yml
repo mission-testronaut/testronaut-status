@@ -23,12 +23,16 @@ status-website:
   # baseUrl: /mission-testronaut/testronaut-status
   logoUrl: https://em-content.zobj.net/source/apple/271/astronaut_1f9d1-200d-1f680.png
   name: Testronaut
-  introTitle: "**Testronaut** is an autonomous testing framework"
-  introMessage: Testronaut is an autonomous testing framework powered by OpenAI function calling and browser automation. It allows you to define mission-based tests in plain English, then runs them through a real browser to validate UI workflows.
+  introTitle: "**Testronaut Status — Agentic End-to-End Testing**"
+  introMessage: Official service status for Testronaut, the agentic end-to-end testing framework powered by AI agents and Playwright. Monitor Mission Control, the API, product site, documentation, and demo sandbox.
   navbar:
     - title: Status
       href: /
-    - title: Download
+    - title: Testronaut
+      href: https://testronaut.app
+    - title: Docs
+      href: https://docs.testronaut.app
+    - title: Download CLI
       href: https://www.npmjs.com/package/testronaut
 
 # Upptime also supports notifications, assigning issues, and more
