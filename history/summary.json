@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.98%",
-    "time": 829,
-    "timeDay": 757,
-    "timeWeek": 730,
-    "timeMonth": 605,
-    "timeYear": 805,
+    "time": 830,
+    "timeDay": 1390,
+    "timeWeek": 722,
+    "timeMonth": 642,
+    "timeYear": 803,
     "dailyMinutesDown": {
       "2025-12-07": 54,
       "2025-12-10": 26
@@ -26,16 +26,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.testronaut.app.ico",
     "slug": "api",
     "status": "up",
-    "uptime": "86.73%",
+    "uptime": "86.76%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "83.08%",
-    "time": 954,
-    "timeDay": 337,
-    "timeWeek": 702,
+    "time": 952,
+    "timeDay": 255,
+    "timeWeek": 494,
     "timeMonth": 693,
-    "timeYear": 792,
+    "timeYear": 786,
     "dailyMinutesDown": {
       "2025-12-07": 30,
       "2026-08-23": 988,
@@ -115,9 +115,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 240,
-    "timeDay": 197,
-    "timeWeek": 195,
-    "timeMonth": 258,
+    "timeDay": 398,
+    "timeWeek": 227,
+    "timeMonth": 268,
     "timeYear": 230,
     "dailyMinutesDown": {
       "2025-12-07": 54
@@ -134,11 +134,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
-    "time": 317,
-    "timeDay": 279,
-    "timeWeek": 249,
-    "timeMonth": 276,
-    "timeYear": 289,
+    "time": 316,
+    "timeDay": 207,
+    "timeWeek": 241,
+    "timeMonth": 277,
+    "timeYear": 287,
     "dailyMinutesDown": {
       "2025-12-07": 30
     }
@@ -155,10 +155,10 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.99%",
     "time": 312,
-    "timeDay": 249,
-    "timeWeek": 292,
-    "timeMonth": 330,
-    "timeYear": 310,
+    "timeDay": 248,
+    "timeWeek": 295,
+    "timeMonth": 331,
+    "timeYear": 308,
     "dailyMinutesDown": {
       "2025-12-07": 54
     }
